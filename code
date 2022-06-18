@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link 
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+       <a href="#"><h2>Syahroni</h2></a> 
+        <ul>
+            <a href=""><li class="gas">home</li></a>
+            <a href=""><li class="gas">Profil</li></a>
+            <a href=""><li class="gas">About</li></a>
+            <a href=""><li class="gas">Contact</li></a>
+        </ul>
+        <div class="togle">
+            <input type="checkbox" name="" id="">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <img src="syahroni.png" alt="">
+        <h1>Syahroni</h1>
+        <p>Mahasiswa | Unindra</p>
+    </div>
+    <div class="about">
+        <div class="judul">
+        <h1>about</h1>
+    </div>
+    <div class="teks1">
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quos similique commodi, enim repudiandae, non rerum cumque nihil aperiam quam consequuntur dolor excepturi? Eum obcaecati vel dolorum at quaerat maiores veniam, nesciunt, sapiente odio dignissimos quibusdam suscipit molestias aut? Dignissimos soluta id corrupti aliquam culpa dicta pariatur sit cum amet, veniam eveniet, consequatur porro totam tenetur ipsum sint perspiciatis quae ullam explicabo corporis ex alias impedit labore? Corrupti, consequuntur alias!</p>
+    </div>
+ <div class="teks2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, voluptates. Natus quibusdam numquam dolores voluptatum labore aliquam iste, odit, sunt ducimus harum molestiae. Aut neque ullam repudiandae minus, modi, molestias eius obcaecati repellendus nemo excepturi mollitia quidem velit placeat ex eum fuga nesciunt doloribus dignissimos praesentium suscipit. Voluptates, quo. Laudantium blanditiis nisi culpa. Esse consectetur quibusdam consequatur voluptatum accusantium, consequuntur repellat sit rem aut commodi quasi tempore, atque maxime impedit?</p>
+
+    </div>
+    </div>
+    <div class="bungkus">
+    <div class="profil" id="profil">
+        <div class="txtprofil"><h1>My Profil</h1></div>
+        <div class="picture">
+        <a href="#foto1"><img src="syahroni.png" alt=""></a>
+        <a href="#foto2"><img src="syahroni.png" alt=""></a>
+        <a href="#foto3"><img src="syahroni.png" alt=""></a>
+        <a href="#foto4"><img src="syahroni.png" alt=""></a>
+        <a href="#foto5"><img src="syahroni.png" alt=""></a>
+        <a href="#foto6"><img src="syahroni.png" alt=""></a>
+       
+    </div>
+    </div>
+    <div class="overlay" id="foto1">
+        <a href="#profil"><img src="close.png" alt="" class="close"></a>
+        <img src="syahroni.png" alt="">
+    </div>
+    <div class="overlay" id="foto2">
+        <a href="#profil"><img src="close.png" alt="" class="close"></a>
+        <img src="syahroni.png" alt="">
+    </div>
+    <div class="overlay" id="foto3">
+        <a href="#profil"><img src="close.png" alt="" class="close"></a>
+        <img src="syahroni.png" alt="">
+    </div>
+    <div class="overlay" id="foto4">
+        <a href="#profil"><img src="close.png" alt="" class="close"></a>
+        <img src="syahroni.png" alt="">
+    </div>
+    <div class="overlay" id="foto5">
+        <a href="#profil"><img src="close.png" alt="" class="close"></a>
+        <img src="syahroni.png" alt="">
+    </div>
+    <div class="overlay" id="foto6">
+        <a href="#profil"><img src="close.png" alt="" class="close"></a>
+        <img src="syahroni.png" alt="">
+    </div>
+</div>
+    <div class="contact">
+        <div class="teksC">
+        <h1>Contact Me</h1>
+    </div>
+       <div class="form">
+            <table>
+                <tr>
+                <td>
+                    <label for="nama">Nama</label><br>
+                    <input type="text" placeholder="Masukkan Nama" class="inp">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="" placeholder="Masukkan Email" class="inp">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telp">Nomor Telpon</label><br>
+                    <input type="number" name="" id="" placeholder="Masukkan Nomor Telepon" class="inp">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="kategori">Kategori</label>
+                    <br>
+                    <select name="kategori" id="" class="inp sel">
+                        <option value="">HTML</option>
+                        <option value="">CSS</option>
+                        <option value="">Javascript</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pesan">Masukkan Pesan</label><br>
+                    <textarea name="" id="" cols="78" rows="10" placeholder="Masukkan Pesan" class="pes"></textarea>
+                </td>
+            </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+<h3>&copy; Copyright By Syahroni | 2022</h3>
+    </footer>
+</body>
+</html>
